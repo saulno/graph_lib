@@ -17,6 +17,13 @@ class Graph(ABC):
     def get_node_by_id(self, id) -> Node:
         return self.nodes[id]
 
+    def get_edges_by_node_id(self, id):
+        newDict = {}
+        for (key, val) in self.edges.items():
+            if val.source.id == id or val.target.id == id:
+                newDict[key] = val
+        return newDict
+
     @abstractmethod
     def to_graphviz(self, filename) -> None:
         ...
@@ -33,6 +40,12 @@ class DirectedGraph(Graph):
     def to_graphviz(self, filename) -> None:
         with open(f"{filename}.gv", "w") as file:
             file.write("digraph {\n")
+            for node in self.nodes.values():
+                attrs = ""
+                for key, val in node.attr.items():
+                    attrs += f"{key}={val},"
+                file.write(f"    {node.id} [{attrs}]\n")
+
             for edge in self.edges.values():
                 file.write(f"    {edge.source.id} -> {edge.target.id}\n")
             file.write("}\n")
@@ -48,6 +61,12 @@ class UndirectedGraph(Graph):
     def to_graphviz(self, filename) -> None:
         with open(f"{filename}.gv", "w") as file:
             file.write("graph {\n")
+            for node in self.nodes.values():
+                attrs = ""
+                for key, val in node.attr.items():
+                    attrs += f"{key}={val},"
+                file.write(f"    {node.id} [{attrs}]\n")
+
             for edge in self.edges.values():
                 file.write(f"    {edge.source.id} -- {edge.target.id}\n")
             file.write("}\n")
