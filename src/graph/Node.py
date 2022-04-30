@@ -11,3 +11,6 @@ class Node:
 
     def __str__(self) -> str:
         return f"Node({self.id}, {self.pos}, {self.label}, {self.attr})"
+
+    def __repr__(self) -> str:
+        return str(self)
