@@ -13,4 +13,7 @@ class Edge:
 
     def __str__(self) -> str:
         return f"Edge({self.id}, {self.source}, {self.target}, {self.weight}, {self.label}, {self.attr})"
+
+    def __repr__(self) -> str:
+        return str(self)
     
