@@ -1,0 +1,81 @@
+graph {
+    0x0 [weight=0,]
+    0x1 [weight=1,]
+    0x2 [weight=85,]
+    0x3 [weight=101,]
+    0x4 [weight=107,]
+    1x0 [weight=42,]
+    1x1 [weight=72,]
+    1x2 [weight=88,]
+    1x3 [weight=138,]
+    1x4 [weight=157,]
+    2x0 [weight=124,]
+    2x1 [weight=90,]
+    2x2 [weight=131,]
+    2x3 [weight=183,]
+    2x4 [weight=178,]
+    3x0 [weight=143,]
+    3x1 [weight=153,]
+    3x2 [weight=146,]
+    3x3 [weight=203,]
+    3x4 [weight=205,]
+    4x0 [weight=158,]
+    4x1 [weight=186,]
+    4x2 [weight=233,]
+    4x3 [weight=218,]
+    4x4 [weight=266,]
+    5x0 [weight=218,]
+    5x1 [weight=186,]
+    5x2 [weight=282,]
+    5x3 [weight=266,]
+    5x4 [weight=268,]
+    0x0 -- 0x1
+    0x1 -- 0x2
+    0x2 -- 0x3
+    0x3 -- 0x4
+    0x0 -- 1x0
+    1x0 -- 1x1
+    0x1 -- 1x1
+    1x1 -- 1x2
+    0x2 -- 1x2
+    1x2 -- 1x3
+    0x3 -- 1x3
+    1x3 -- 1x4
+    0x4 -- 1x4
+    1x0 -- 2x0
+    2x0 -- 2x1
+    1x1 -- 2x1
+    2x1 -- 2x2
+    1x2 -- 2x2
+    2x2 -- 2x3
+    1x3 -- 2x3
+    2x3 -- 2x4
+    1x4 -- 2x4
+    2x0 -- 3x0
+    3x0 -- 3x1
+    2x1 -- 3x1
+    3x1 -- 3x2
+    2x2 -- 3x2
+    3x2 -- 3x3
+    2x3 -- 3x3
+    3x3 -- 3x4
+    2x4 -- 3x4
+    3x0 -- 4x0
+    4x0 -- 4x1
+    3x1 -- 4x1
+    4x1 -- 4x2
+    3x2 -- 4x2
+    4x2 -- 4x3
+    3x3 -- 4x3
+    4x3 -- 4x4
+    3x4 -- 4x4
+    4x0 -- 5x0
+    5x0 -- 5x1
+    4x1 -- 5x1
+    5x1 -- 5x2
+    4x2 -- 5x2
+    5x2 -- 5x3
+    4x3 -- 5x3
+    5x3 -- 5x4
+    4x4 -- 5x4
+}
