@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg contentScriptType="text/ecmascript" width="1193.0"
+     xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+     contentStyleType="text/css"
+     viewBox="-536.000000 -1067.000000 1193.000000 2125.000000" height="2125.0"
+     preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+     version="1.1">
+    <g id="edges">
+        <path fill="none" stroke-width="0.17"
+              d="M -113.824577,836.566467 C -127.676086,797.810303 -90.319054,718.898743 -51.562862,705.047241"
+              class="id_0x0_(0) id_0x1_(0)" stroke-opacity="1.0"
+              stroke="#000000"/>
+        <path fill="none" stroke-width="0.32999998"
+              d="M -113.824577,836.566467 C -101.562111,872.064148 -136.414963,943.704468 -171.912674,955.966919"
+              class="id_0x0_(0) id_1x0_(0)" stroke-opacity="1.0"
+              stroke="#000000"/>
+        <path fill="none" stroke-width="0.29"
+              d="M -171.912674,955.966919 C -153.361572,973.969055 -152.538223,1028.799072 -170.540405,1047.350098"
+              class="id_1x0_(0) id_1x1_(0)" stroke-opacity="1.0"
+              stroke="#000000"/>
+        <path fill="none" stroke-width="0.38"
+              d="M -51.562862,705.047241 C -68.118622,662.748779 -29.504583,574.467529 12.793859,557.911743"
+              class="id_0x1_(0) id_0x2_(0)" stroke-opacity="1.0"
+              stroke="#000000"/>
+        <path fill="none" stroke-width="0.32999998"
+              d="M 12.793859,557.911743 C 5.586709,576.472656 -33.065460,593.503418 -51.626415,586.296265"
+              class="id_0x2_(0) id_0x3_(0)" stroke-opacity="1.0"
+              stroke="#000000"/>
+        <path fill="none" stroke-width="0.39"
+              d="M 12.793859,557.911743 C -2.929062,511.304077 43.398041,417.808197 90.005699,402.085297"
+              class="id_0x2_(0) id_1x2_(0)" stroke-opacity="1.0"
+              stroke="#000000"/>
+        <path fill="none" stroke-width="0.47"
+              d="M 90.005699,402.085297 C 73.590271,353.792969 121.405594,256.731323 169.697922,240.315903"
+              class="id_1x2_(0) id_2x2_(0)" stroke-opacity="1.0"
+              stroke="#000000"/>
+        <path fill="none" stroke-width="0.13"
+              d="M 169.697922,240.315903 C 203.356171,205.461517 306.125122,203.667313 340.979523,237.325562"
+              class="id_2x2_(0) id_2x3_(0)" stroke-opacity="1.0"
+              stroke="#000000"/>
+        <path fill="none" stroke-width="0.099999994"
+              d="M 340.979523,237.325562 C 375.378418,235.162582 430.221191,283.516388 432.384186,317.915283"
+              class="id_2x3_(0) id_3x3_(0)" stroke-opacity="1.0"
+              stroke="#000000"/>
+        <path fill="none" stroke-width="0.24"
+              d="M 340.979523,237.325562 C 354.252045,226.318054 390.672089,229.715546 401.679596,242.988068"
+              class="id_2x3_(0) id_2x4_(0)" stroke-opacity="1.0"
+              stroke="#000000"/>
+        <path fill="none" stroke-width="0.45"
+              d="M 432.384186,317.915283 C 458.861877,312.371185 506.894562,343.771637 512.438660,370.249329"
+              class="id_3x3_(0) id_3x4_(0)" stroke-opacity="1.0"
+              stroke="#000000"/>
+        <path fill="none" stroke-width="0.5"
+              d="M 93.470177,77.559464 C 141.267014,94.865196 187.003662,192.519073 169.697922,240.315903"
+              class="id_2x1_(0) id_2x2_(0)" stroke-opacity="1.0"
+              stroke="#000000"/>
+        <path fill="none" stroke-width="0.52"
+              d="M 93.470177,77.559464 C 46.930283,59.696209 3.915314,-36.908527 21.778570,-83.448425"
+              class="id_2x1_(0) id_3x1_(0)" stroke-opacity="1.0"
+              stroke="#000000"/>
+        <path fill="none" stroke-width="0.41"
+              d="M -48.188923,-241.975037 C -2.490101,-224.263214 39.490395,-129.147247 21.778570,-83.448425"
+              class="id_3x0_(0) id_3x1_(0)" stroke-opacity="1.0"
+              stroke="#000000"/>
+        <path fill="none" stroke-width="0.07"
+              d="M -48.188923,-241.975037 C -93.888824,-259.106384 -136.741608,-353.353302 -119.610245,-399.053192"
+              class="id_3x0_(0) id_4x0_(0)" stroke-opacity="1.0"
+              stroke="#000000"/>
+        <path fill="none" stroke-width="0.13"
+              d="M -119.610245,-399.053192 C -166.358765,-413.704193 -214.505035,-505.803528 -199.854034,-552.552063"
+              class="id_4x0_(0) id_4x1_(0)" stroke-opacity="1.0"
+              stroke="#000000"/>
+        <path fill="none" stroke-width="0.11"
+              d="M -199.854034,-552.552063 C -233.841248,-584.207214 -237.339355,-682.670715 -205.684235,-716.657898"
+              class="id_4x1_(0) id_5x1_(0)" stroke-opacity="1.0"
+              stroke="#000000"/>
+        <path fill="none" stroke-width="0.24"
+              d="M -199.854034,-552.552063 C -221.609512,-524.875305 -295.757843,-515.993408 -323.434570,-537.748901"
+              class="id_4x1_(0) id_4x2_(0)" stroke-opacity="1.0"
+              stroke="#000000"/>
+        <path fill="none" stroke-width="0.19999999"
+              d="M -323.434570,-537.748901 C -344.385223,-513.115845 -412.760803,-507.592163 -437.393890,-528.542847"
+              class="id_4x2_(0) id_4x3_(0)" stroke-opacity="1.0"
+              stroke="#000000"/>
+        <path fill="none" stroke-width="0.07"
+              d="M -437.393890,-528.542847 C -451.793335,-507.716156 -504.632538,-498.075348 -525.459229,-512.474792"
+              class="id_4x3_(0) id_4x4_(0)" stroke-opacity="1.0"
+              stroke="#000000"/>
+        <path fill="none" stroke-width="0.25"
+              d="M -205.684235,-716.657898 C -240.462357,-736.828613 -262.373535,-819.251770 -242.202850,-854.029907"
+              class="id_5x1_(0) id_5x2_(0)" stroke-opacity="1.0"
+              stroke="#000000"/>
+        <path fill="none" stroke-width="0.28"
+              d="M -152.960800,-780.086426 C -150.819794,-756.856018 -182.453842,-718.798950 -205.684235,-716.657898"
+              class="id_5x0_(0) id_5x1_(0)" stroke-opacity="1.0"
+              stroke="#000000"/>
+        <path fill="none" stroke-width="0.47"
+              d="M -336.604034,-474.187195 C -346.682495,-489.533417 -338.780792,-527.670471 -323.434570,-537.748901"
+              class="id_3x2_(0) id_4x2_(0)" stroke-opacity="1.0"
+              stroke="#000000"/>
+        <path fill="none" stroke-width="0.56"
+              d="M -171.912674,955.966919 C -175.688904,981.545654 -219.721390,1014.249512 -245.300171,1010.473267"
+              class="id_1x0_(0) id_2x0_(0)" stroke-opacity="1.0"
+              stroke="#000000"/>
+        <path fill="none" stroke-width="0.59999996"
+              d="M 460.481537,161.412872 C 451.763672,200.495819 380.062439,246.043427 340.979523,237.325562"
+              class="id_1x3_(0) id_2x3_(0)" stroke-opacity="1.0"
+              stroke="#000000"/>
+        <path fill="none" stroke-width="0.22"
+              d="M 460.481537,161.412872 C 469.543640,128.682312 532.232666,93.179657 564.963257,102.241783"
+              class="id_1x3_(0) id_1x4_(0)" stroke-opacity="1.0"
+              stroke="#000000"/>
+        <path fill="none" stroke-width="0.55"
+              d="M 646.415405,57.176979 C 639.137939,82.480370 590.266602,109.519249 564.963257,102.241783"
+              class="id_0x4_(0) id_1x4_(0)" stroke-opacity="1.0"
+              stroke="#000000"/>
+        <path fill="none" stroke-width="0.61"
+              d="M -242.202850,-854.029907 C -271.583710,-870.709595 -290.635529,-939.800354 -273.955872,-969.181213"
+              class="id_5x2_(0) id_5x3_(0)" stroke-opacity="1.0"
+              stroke="#000000"/>
+        <path fill="none" stroke-width="0.19999999"
+              d="M -273.955872,-969.181213 C -296.540375,-981.350098 -312.163818,-1033.480225 -299.994904,-1056.064697"
+              class="id_5x3_(0) id_5x4_(0)" stroke-opacity="1.0"
+              stroke="#000000"/>
+    </g>
+    <g id="nodes">
+        <circle fill-opacity="1.0" fill="#000000" r="10.0" cx="-113.82458"
+                class="id_0x0_(0)" cy="836.56647" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#000000" r="10.0" cx="-51.562862"
+                class="id_0x1_(0)" cy="705.04724" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#000000" r="10.0" cx="-171.91267"
+                class="id_1x0_(0)" cy="955.9669" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#000000" r="10.0" cx="-170.5404"
+                class="id_1x1_(0)" cy="1047.3501" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#000000" r="10.0" cx="12.7938595"
+                class="id_0x2_(0)" cy="557.91174" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#000000" r="10.0" cx="-51.626415"
+                class="id_0x3_(0)" cy="586.29626" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#000000" r="10.0" cx="90.0057"
+                class="id_1x2_(0)" cy="402.0853" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#000000" r="10.0" cx="169.69792"
+                class="id_2x2_(0)" cy="240.3159" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#000000" r="10.0" cx="340.97952"
+                class="id_2x3_(0)" cy="237.32556" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#000000" r="10.0" cx="432.3842"
+                class="id_3x3_(0)" cy="317.91528" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#000000" r="10.0" cx="401.6796"
+                class="id_2x4_(0)" cy="242.98807" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#000000" r="10.0" cx="512.43866"
+                class="id_3x4_(0)" cy="370.24933" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#000000" r="10.0" cx="93.47018"
+                class="id_2x1_(0)" cy="77.55946" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#000000" r="10.0" cx="21.77857"
+                class="id_3x1_(0)" cy="-83.448425" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#000000" r="10.0" cx="-48.188923"
+                class="id_3x0_(0)" cy="-241.97504" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#000000" r="10.0" cx="-119.610245"
+                class="id_4x0_(0)" cy="-399.0532" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#000000" r="10.0" cx="-199.85403"
+                class="id_4x1_(0)" cy="-552.55206" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#000000" r="10.0" cx="-205.68423"
+                class="id_5x1_(0)" cy="-716.6579" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#000000" r="10.0" cx="-323.43457"
+                class="id_4x2_(0)" cy="-537.7489" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#000000" r="10.0" cx="-437.3939"
+                class="id_4x3_(0)" cy="-528.54285" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#000000" r="10.0" cx="-525.4592"
+                class="id_4x4_(0)" cy="-512.4748" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#000000" r="10.0" cx="-242.20285"
+                class="id_5x2_(0)" cy="-854.0299" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#000000" r="10.0" cx="-152.9608"
+                class="id_5x0_(0)" cy="-780.0864" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#000000" r="10.0" cx="-336.60403"
+                class="id_3x2_(0)" cy="-474.1872" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#000000" r="10.0" cx="-245.30017"
+                class="id_2x0_(0)" cy="1010.47327" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#000000" r="10.0" cx="460.48154"
+                class="id_1x3_(0)" cy="161.41287" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#000000" r="10.0" cx="564.96326"
+                class="id_1x4_(0)" cy="102.24178" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#000000" r="10.0" cx="646.4154"
+                class="id_0x4_(0)" cy="57.17698" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#000000" r="10.0" cx="-273.95587"
+                class="id_5x3_(0)" cy="-969.1812" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#000000" r="10.0" cx="-299.9949"
+                class="id_5x4_(0)" cy="-1056.0647" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+    </g>
+    <g id="node-labels-outline">
+        <text stroke-linecap="round" font-size="24" x="-113.82458" y="842.1973"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_0x0_(0)" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
+            0x0_(0)
+        </text>
+        <text stroke-linecap="round" font-size="24" x="-51.562862" y="710.6781"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_0x1_(0)" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
+            0x1_(0)
+        </text>
+        <text stroke-linecap="round" font-size="24" x="-171.91267" y="961.5978"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1x0_(0)" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
+            1x0_(0)
+        </text>
+        <text stroke-linecap="round" font-size="24" x="-170.5404" y="1052.981"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1x1_(0)" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
+            1x1_(0)
+        </text>
+        <text stroke-linecap="round" font-size="24" x="12.7938595" y="563.5426"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_0x2_(0)" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
+            0x2_(0)
+        </text>
+        <text stroke-linecap="round" font-size="24" x="-51.626415" y="591.9271"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_0x3_(0)" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
+            0x3_(0)
+        </text>
+        <text stroke-linecap="round" font-size="24" x="90.0057" y="407.71616"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1x2_(0)" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
+            1x2_(0)
+        </text>
+        <text stroke-linecap="round" font-size="24" x="169.69792" y="245.94676"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_2x2_(0)" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
+            2x2_(0)
+        </text>
+        <text stroke-linecap="round" font-size="24" x="340.97952" y="242.95642"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_2x3_(0)" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
+            2x3_(0)
+        </text>
+        <text stroke-linecap="round" font-size="24" x="432.3842" y="323.54614"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_3x3_(0)" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
+            3x3_(0)
+        </text>
+        <text stroke-linecap="round" font-size="24" x="401.6796" y="248.61893"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_2x4_(0)" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
+            2x4_(0)
+        </text>
+        <text stroke-linecap="round" font-size="24" x="512.43866" y="375.8802"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_3x4_(0)" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
+            3x4_(0)
+        </text>
+        <text stroke-linecap="round" font-size="24" x="93.47018" y="83.19032"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_2x1_(0)" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
+            2x1_(0)
+        </text>
+        <text stroke-linecap="round" font-size="24" x="21.77857" y="-77.817566"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_3x1_(0)" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
+            3x1_(0)
+        </text>
+        <text stroke-linecap="round" font-size="24" x="-48.188923"
+              y="-236.34418" fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_3x0_(0)" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
+            3x0_(0)
+        </text>
+        <text stroke-linecap="round" font-size="24" x="-119.610245"
+              y="-393.42233" fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_4x0_(0)" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
+            4x0_(0)
+        </text>
+        <text stroke-linecap="round" font-size="24" x="-199.85403" y="-546.9212"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_4x1_(0)" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
+            4x1_(0)
+        </text>
+        <text stroke-linecap="round" font-size="24" x="-205.68423"
+              y="-711.02704" fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_5x1_(0)" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
+            5x1_(0)
+        </text>
+        <text stroke-linecap="round" font-size="24" x="-323.43457"
+              y="-532.11804" fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_4x2_(0)" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
+            4x2_(0)
+        </text>
+        <text stroke-linecap="round" font-size="24" x="-437.3939" y="-522.912"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_4x3_(0)" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
+            4x3_(0)
+        </text>
+        <text stroke-linecap="round" font-size="24" x="-525.4592" y="-506.84393"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_4x4_(0)" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
+            4x4_(0)
+        </text>
+        <text stroke-linecap="round" font-size="24" x="-242.20285"
+              y="-848.39905" fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_5x2_(0)" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
+            5x2_(0)
+        </text>
+        <text stroke-linecap="round" font-size="24" x="-152.9608" y="-774.45557"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_5x0_(0)" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
+            5x0_(0)
+        </text>
+        <text stroke-linecap="round" font-size="24" x="-336.60403"
+              y="-468.55634" fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_3x2_(0)" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
+            3x2_(0)
+        </text>
+        <text stroke-linecap="round" font-size="24" x="-245.30017" y="1016.1041"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_2x0_(0)" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
+            2x0_(0)
+        </text>
+        <text stroke-linecap="round" font-size="24" x="460.48154" y="167.04373"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1x3_(0)" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
+            1x3_(0)
+        </text>
+        <text stroke-linecap="round" font-size="24" x="564.96326" y="107.87264"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1x4_(0)" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
+            1x4_(0)
+        </text>
+        <text stroke-linecap="round" font-size="24" x="646.4154" y="62.80784"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_0x4_(0)" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
+            0x4_(0)
+        </text>
+        <text stroke-linecap="round" font-size="24" x="-273.95587"
+              y="-963.55035" fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_5x3_(0)" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
+            5x3_(0)
+        </text>
+        <text stroke-linecap="round" font-size="24" x="-299.9949" y="-1050.4338"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_5x4_(0)" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
+            5x4_(0)
+        </text>
+        <text stroke-linecap="round" font-size="10" x="-102.421616" y="761.4676"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_547" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="0.625px">
+            17
+        </text>
+        <text stroke-linecap="round" font-size="10" x="-124.95856" y="904.97986"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_548" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="0.625px">
+            33
+        </text>
+        <text stroke-linecap="round" font-size="10" x="-157.51904"
+              y="1001.45264" fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_549" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="0.625px">
+            29
+        </text>
+        <text stroke-linecap="round" font-size="10" x="-41.454826" y="621.826"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_550" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="0.625px">
+            38
+        </text>
+        <text stroke-linecap="round" font-size="10" x="-15.158601" y="581.767"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_551" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="0.625px">
+            33
+        </text>
+        <text stroke-linecap="round" font-size="10" x="28.025814" y="468.41675"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_552" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="0.625px">
+            39
+        </text>
+        <text stroke-linecap="round" font-size="10" x="105.5864" y="309.24677"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_553" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="0.625px">
+            47
+        </text>
+        <text stroke-linecap="round" font-size="10" x="254.89017" y="213.1285"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_554" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="0.625px">
+            13
+        </text>
+        <text stroke-linecap="round" font-size="10" x="398.77032" y="263.90973"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_555" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="0.625px">
+            10
+        </text>
+        <text stroke-linecap="round" font-size="10" x="372.17896" y="231.0518"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_556" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="0.625px">
+            24
+        </text>
+        <text stroke-linecap="round" font-size="10" x="480.26154" y="332.07416"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_557" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="0.625px">
+            45
+        </text>
+        <text stroke-linecap="round" font-size="10" x="155.99753" y="147.50352"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_558" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="0.625px">
+            50
+        </text>
+        <text stroke-linecap="round" font-size="10" x="33.47319" y="7.809265"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_559" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="0.625px">
+            52
+        </text>
+        <text stroke-linecap="round" font-size="10" x="10.573816" y="-173.20685"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_560" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="0.625px">
+            41
+        </text>
+        <text stroke-linecap="round" font-size="10" x="-107.46131" y="-309.8009"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_561" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="0.625px">
+            7
+        </text>
+        <text stroke-linecap="round" font-size="10" x="-182.75696"
+              y="-463.76605" fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_562" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="0.625px">
+            13
+        </text>
+        <text stroke-linecap="round" font-size="10" x="-227.38501"
+              y="-633.73047" fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_563" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="0.625px">
+            11
+        </text>
+        <text stroke-linecap="round" font-size="10" x="-259.42383"
+              y="-526.61334" fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_564" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="0.625px">
+            24
+        </text>
+        <text stroke-linecap="round" font-size="10" x="-379.03333" y="-516.052"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_565" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="0.625px">
+            20
+        </text>
+        <text stroke-linecap="round" font-size="10" x="-479.01636" y="-507.299"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_566" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="0.625px">
+            7
+        </text>
+        <text stroke-linecap="round" font-size="10" x="-244.54935" y="-779.8661"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_567" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="0.625px">
+            25
+        </text>
+        <text stroke-linecap="round" font-size="10" x="-169.80823" y="-740.4636"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_568" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="0.625px">
+            28
+        </text>
+        <text stroke-linecap="round" font-size="10" x="-339.55353"
+              y="-507.94348" fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_569" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="0.625px">
+            47
+        </text>
+        <text stroke-linecap="round" font-size="10" x="-200.43045" y="994.2282"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_570" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="0.625px">
+            56
+        </text>
+        <text stroke-linecap="round" font-size="10" x="412.11743" y="217.29453"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_571" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="0.625px">
+            60
+        </text>
+        <text stroke-linecap="round" font-size="10" x="503.8467" y="116.155075"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_572" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="0.625px">
+            22
+        </text>
+        <text stroke-linecap="round" font-size="10" x="612.44904" y="91.9272"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_573" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="0.625px">
+            55
+        </text>
+        <text stroke-linecap="round" font-size="10" x="-275.35205"
+              y="-906.84265" fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_574" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="0.625px">
+            61
+        </text>
+        <text stroke-linecap="round" font-size="10" x="-300.00793"
+              y="-1008.71704" fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_575" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="0.625px">
+            20
+        </text>
+    </g>
+    <g id="node-labels">
+        <text font-size="24" x="-113.82458" y="842.1973" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_0x0_(0)">
+            0x0_(0)
+        </text>
+        <text font-size="24" x="-51.562862" y="710.6781" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_0x1_(0)">
+            0x1_(0)
+        </text>
+        <text font-size="24" x="-171.91267" y="961.5978" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1x0_(0)">
+            1x0_(0)
+        </text>
+        <text font-size="24" x="-170.5404" y="1052.981" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1x1_(0)">
+            1x1_(0)
+        </text>
+        <text font-size="24" x="12.7938595" y="563.5426" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_0x2_(0)">
+            0x2_(0)
+        </text>
+        <text font-size="24" x="-51.626415" y="591.9271" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_0x3_(0)">
+            0x3_(0)
+        </text>
+        <text font-size="24" x="90.0057" y="407.71616" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1x2_(0)">
+            1x2_(0)
+        </text>
+        <text font-size="24" x="169.69792" y="245.94676" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_2x2_(0)">
+            2x2_(0)
+        </text>
+        <text font-size="24" x="340.97952" y="242.95642" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_2x3_(0)">
+            2x3_(0)
+        </text>
+        <text font-size="24" x="432.3842" y="323.54614" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_3x3_(0)">
+            3x3_(0)
+        </text>
+        <text font-size="24" x="401.6796" y="248.61893" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_2x4_(0)">
+            2x4_(0)
+        </text>
+        <text font-size="24" x="512.43866" y="375.8802" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_3x4_(0)">
+            3x4_(0)
+        </text>
+        <text font-size="24" x="93.47018" y="83.19032" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_2x1_(0)">
+            2x1_(0)
+        </text>
+        <text font-size="24" x="21.77857" y="-77.817566" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_3x1_(0)">
+            3x1_(0)
+        </text>
+        <text font-size="24" x="-48.188923" y="-236.34418" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_3x0_(0)">
+            3x0_(0)
+        </text>
+        <text font-size="24" x="-119.610245" y="-393.42233" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_4x0_(0)">
+            4x0_(0)
+        </text>
+        <text font-size="24" x="-199.85403" y="-546.9212" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_4x1_(0)">
+            4x1_(0)
+        </text>
+        <text font-size="24" x="-205.68423" y="-711.02704" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_5x1_(0)">
+            5x1_(0)
+        </text>
+        <text font-size="24" x="-323.43457" y="-532.11804" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_4x2_(0)">
+            4x2_(0)
+        </text>
+        <text font-size="24" x="-437.3939" y="-522.912" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_4x3_(0)">
+            4x3_(0)
+        </text>
+        <text font-size="24" x="-525.4592" y="-506.84393" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_4x4_(0)">
+            4x4_(0)
+        </text>
+        <text font-size="24" x="-242.20285" y="-848.39905" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_5x2_(0)">
+            5x2_(0)
+        </text>
+        <text font-size="24" x="-152.9608" y="-774.45557" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_5x0_(0)">
+            5x0_(0)
+        </text>
+        <text font-size="24" x="-336.60403" y="-468.55634" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_3x2_(0)">
+            3x2_(0)
+        </text>
+        <text font-size="24" x="-245.30017" y="1016.1041" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_2x0_(0)">
+            2x0_(0)
+        </text>
+        <text font-size="24" x="460.48154" y="167.04373" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1x3_(0)">
+            1x3_(0)
+        </text>
+        <text font-size="24" x="564.96326" y="107.87264" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1x4_(0)">
+            1x4_(0)
+        </text>
+        <text font-size="24" x="646.4154" y="62.80784" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_0x4_(0)">
+            0x4_(0)
+        </text>
+        <text font-size="24" x="-273.95587" y="-963.55035" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_5x3_(0)">
+            5x3_(0)
+        </text>
+        <text font-size="24" x="-299.9949" y="-1050.4338" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_5x4_(0)">
+            5x4_(0)
+        </text>
+    </g>
+    <g id="edge-labels">
+        <text font-size="10" x="-102.421616" y="761.4676" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_547">
+            17
+        </text>
+        <text font-size="10" x="-124.95856" y="904.97986" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_548">
+            33
+        </text>
+        <text font-size="10" x="-157.51904" y="1001.45264" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_549">
+            29
+        </text>
+        <text font-size="10" x="-41.454826" y="621.826" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_550">
+            38
+        </text>
+        <text font-size="10" x="-15.158601" y="581.767" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_551">
+            33
+        </text>
+        <text font-size="10" x="28.025814" y="468.41675" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_552">
+            39
+        </text>
+        <text font-size="10" x="105.5864" y="309.24677" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_553">
+            47
+        </text>
+        <text font-size="10" x="254.89017" y="213.1285" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_554">
+            13
+        </text>
+        <text font-size="10" x="398.77032" y="263.90973" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_555">
+            10
+        </text>
+        <text font-size="10" x="372.17896" y="231.0518" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_556">
+            24
+        </text>
+        <text font-size="10" x="480.26154" y="332.07416" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_557">
+            45
+        </text>
+        <text font-size="10" x="155.99753" y="147.50352" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_558">
+            50
+        </text>
+        <text font-size="10" x="33.47319" y="7.809265" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_559">
+            52
+        </text>
+        <text font-size="10" x="10.573816" y="-173.20685" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_560">
+            41
+        </text>
+        <text font-size="10" x="-107.46131" y="-309.8009" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_561">
+            7
+        </text>
+        <text font-size="10" x="-182.75696" y="-463.76605" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_562">
+            13
+        </text>
+        <text font-size="10" x="-227.38501" y="-633.73047" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_563">
+            11
+        </text>
+        <text font-size="10" x="-259.42383" y="-526.61334" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_564">
+            24
+        </text>
+        <text font-size="10" x="-379.03333" y="-516.052" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_565">
+            20
+        </text>
+        <text font-size="10" x="-479.01636" y="-507.299" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_566">
+            7
+        </text>
+        <text font-size="10" x="-244.54935" y="-779.8661" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_567">
+            25
+        </text>
+        <text font-size="10" x="-169.80823" y="-740.4636" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_568">
+            28
+        </text>
+        <text font-size="10" x="-339.55353" y="-507.94348" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_569">
+            47
+        </text>
+        <text font-size="10" x="-200.43045" y="994.2282" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_570">
+            56
+        </text>
+        <text font-size="10" x="412.11743" y="217.29453" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_571">
+            60
+        </text>
+        <text font-size="10" x="503.8467" y="116.155075" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_572">
+            22
+        </text>
+        <text font-size="10" x="612.44904" y="91.9272" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_573">
+            55
+        </text>
+        <text font-size="10" x="-275.35205" y="-906.84265" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_574">
+            61
+        </text>
+        <text font-size="10" x="-300.00793" y="-1008.71704" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_575">
+            20
+        </text>
+    </g>
+</svg>
