@@ -1,5 +1,6 @@
 from __future__ import annotations
 from abc import ABC, abstractmethod
+from hashlib import new
 from math import inf
 from typing import Dict, List, Tuple
 from .Edge import Edge
@@ -132,6 +133,64 @@ class Graph(ABC):
 
         return tree
 
+    def change_all_conected_kruskal(self, node: Node, val: int):
+        neighbors = self.get_neighbors_for_node(node)
+        node.attr['kruskal'] = val
+        for n in neighbors:
+            if n.attr['kruskal'] != val:
+                n.attr['kruskal'] = val
+                self.change_all_conected_kruskal(n, val)
+
+    def kruskal(self) -> Tuple[Graph, int]:
+        tree = UndirectedGraph(show_weights=True)
+        mst = 0
+        
+        i = 0
+        for id, node in self.nodes.items():
+            tree.add_node(Node(id, kruskal=i, weight=0))
+            i += 1
+
+        sorted_edges = sorted(self.edges.values(), key=lambda elem: elem.weight)
+        for e in sorted_edges:
+            s = tree.get_node_by_id(e.source.id)
+            t = tree.get_node_by_id(e.target.id)
+            if s.attr['kruskal'] !=  t.attr['kruskal']:
+                mst += e.weight
+                tree.add_edge(Edge(source=s, target=t, weight=e.weight))
+                tree.change_all_conected_kruskal(t, s.attr['kruskal'])
+    
+        return (tree, mst)
+    
+    def prim(self, start: Node) -> Tuple[Graph, int]:
+        tree = UndirectedGraph(show_weights=True)
+        mst = 0
+
+        visited_nodes = set([start.id])
+        tree.add_node(Node(id=start.id, weight=0))
+
+        edges = self.get_edges_by_node_id(start.id)
+        edges = sorted(edges.values(), key=lambda elem: elem.weight)
+        while len(edges) > 0:
+            e = edges.pop(0)
+            s, t = e.source, e.target
+            if s.id in visited_nodes and not t.id in visited_nodes: 
+                visited_nodes.add(t.id) 
+                ns, nt = Node(id=s.id, weight=0), Node(id=t.id, weight=0)
+                tree.add_node(nt)
+                tree.add_edge(Edge(source=ns, target=nt, weight=e.weight))
+                mst += e.weight
+                edges += self.get_edges_by_node_id(t.id).values()
+                edges = sorted(edges, key=lambda elem: elem.weight)
+            elif not s.id in visited_nodes and t.id in visited_nodes:
+                visited_nodes.add(s.id) 
+                ns, nt = Node(id=s.id, weight=0), Node(id=t.id, weight=0)
+                tree.add_node(ns)
+                tree.add_edge(Edge(source=ns, target=nt, weight=e.weight))
+                mst += e.weight
+                edges += self.get_edges_by_node_id(s.id).values()
+                edges = sorted(edges, key=lambda elem: elem.weight)
+        
+        return (tree, mst)
 
     @abstractmethod
     def get_neighbors_for_node(self, node: Node) -> List[Node]:
@@ -148,6 +207,9 @@ class Graph(ABC):
     @abstractmethod
     def __str__(self) -> str:
         ...
+
+    def __repr__(self) -> str:
+        return str(self)
 
 class DirectedGraph(Graph):
     def __init__(self, show_weights= False) -> None:
