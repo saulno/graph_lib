@@ -1,14 +1,17 @@
 from __future__ import annotations
 from abc import ABC, abstractmethod
-from typing import List
+from hashlib import new
+from math import inf
+from typing import Dict, List, Tuple
 from .Edge import Edge
 from .Node import Node
 
 class Graph(ABC):
-    def __init__(self) -> None:
+    def __init__(self, show_weights= False) -> None:
         super().__init__()
         self.nodes = {}
         self.edges = {}
+        self.show_weights = show_weights
 
     def add_node(self, node: Node) -> None:
         self.nodes[node.id] = node
@@ -89,8 +92,112 @@ class Graph(ABC):
                 tree.add_edge(Edge(node, neighbor))
                 self.dfs_r(neighbor, tree, visited)
 
+    def dijkstra(self, source: Node) -> Graph:
+        def min_dist(dist: Dict[int, int], in_tree: Dict[int, bool]) -> Tuple[int, int]:
+            mini = inf
+            mini_id = -1
+            for (id, is_in) in in_tree.items():
+                if is_in == False:
+                    if dist[id] < mini:
+                        mini = dist[id]
+                        mini_id = id
+
+            return (mini_id, mini)
+
+        tree = UndirectedGraph(show_weights=True)
+        
+        dist = {node.id: inf for node in self.nodes.values()}
+        parents = {node.id: None for node in self.nodes.values()}
+        in_tree = {node.id: False for node in self.nodes.values()}
+
+        dist[source.id] = 0
+        source.attr["weight"] = 0
+
+        while False in in_tree.values():
+            (u_id, u_dist) = min_dist(dist, in_tree)
+            if u_id == -1:
+                break
+            u = self.get_node_by_id(u_id)
+            u.attr["weight"] = u_dist
+            tree.add_node(u)
+            if parents[u_id]:
+                tree.add_edge(Edge(source=self.get_node_by_id(u_id), target=self.get_node_by_id(parents[u_id]), weight=dist[u_id]))
+            in_tree[u_id] = True
+
+            for n in self.get_neighbors_for_node(u):
+                if e := self.get_edge_for_nodes(u, n):
+                    if not in_tree[n.id] and dist[n.id] > u_dist + e.weight:
+                        dist[n.id] = u_dist + e.weight
+                        parents[n.id] = u_id
+            
+
+        return tree
+
+    def change_all_conected_kruskal(self, node: Node, val: int):
+        neighbors = self.get_neighbors_for_node(node)
+        node.attr['kruskal'] = val
+        for n in neighbors:
+            if n.attr['kruskal'] != val:
+                n.attr['kruskal'] = val
+                self.change_all_conected_kruskal(n, val)
+
+    def kruskal(self) -> Tuple[Graph, int]:
+        tree = UndirectedGraph(show_weights=True)
+        mst = 0
+        
+        i = 0
+        for id, node in self.nodes.items():
+            tree.add_node(Node(id, kruskal=i, weight=0))
+            i += 1
+
+        sorted_edges = sorted(self.edges.values(), key=lambda elem: elem.weight)
+        for e in sorted_edges:
+            s = tree.get_node_by_id(e.source.id)
+            t = tree.get_node_by_id(e.target.id)
+            if s.attr['kruskal'] !=  t.attr['kruskal']:
+                mst += e.weight
+                tree.add_edge(Edge(source=s, target=t, weight=e.weight))
+                tree.change_all_conected_kruskal(t, s.attr['kruskal'])
+    
+        return (tree, mst)
+    
+    def prim(self, start: Node) -> Tuple[Graph, int]:
+        tree = UndirectedGraph(show_weights=True)
+        mst = 0
+
+        visited_nodes = set([start.id])
+        tree.add_node(Node(id=start.id, weight=0))
+
+        edges = self.get_edges_by_node_id(start.id)
+        edges = sorted(edges.values(), key=lambda elem: elem.weight)
+        while len(edges) > 0:
+            e = edges.pop(0)
+            s, t = e.source, e.target
+            if s.id in visited_nodes and not t.id in visited_nodes: 
+                visited_nodes.add(t.id) 
+                ns, nt = Node(id=s.id, weight=0), Node(id=t.id, weight=0)
+                tree.add_node(nt)
+                tree.add_edge(Edge(source=ns, target=nt, weight=e.weight))
+                mst += e.weight
+                edges += self.get_edges_by_node_id(t.id).values()
+                edges = sorted(edges, key=lambda elem: elem.weight)
+            elif not s.id in visited_nodes and t.id in visited_nodes:
+                visited_nodes.add(s.id) 
+                ns, nt = Node(id=s.id, weight=0), Node(id=t.id, weight=0)
+                tree.add_node(ns)
+                tree.add_edge(Edge(source=ns, target=nt, weight=e.weight))
+                mst += e.weight
+                edges += self.get_edges_by_node_id(s.id).values()
+                edges = sorted(edges, key=lambda elem: elem.weight)
+        
+        return (tree, mst)
+
     @abstractmethod
     def get_neighbors_for_node(self, node: Node) -> List[Node]:
+        ...
+    
+    @abstractmethod
+    def get_edge_for_nodes(self, node1: Node, node2: Node) -> Edge:
         ...
 
     @abstractmethod
@@ -101,9 +208,12 @@ class Graph(ABC):
     def __str__(self) -> str:
         ...
 
+    def __repr__(self) -> str:
+        return str(self)
+
 class DirectedGraph(Graph):
-    def __init__(self) -> None:
-        super().__init__()
+    def __init__(self, show_weights= False) -> None:
+        super().__init__(show_weights)
         self.directed = True
 
     def get_neighbors_for_node(self, node: Node) -> List[Node]:
@@ -117,6 +227,15 @@ class DirectedGraph(Graph):
         
         return neighbors
 
+    def get_edge_for_nodes(self, node1: Node, node2: Node) -> Edge:
+        if not node1.id in self.nodes.keys() or not node2.id in self.nodes.keys():
+            raise Exception("Nodo no exisatente")
+        
+        for edge in self.edges.values():
+            if edge.source.id == node1.id and edge.target.id == node2.id:
+                return edge
+        
+        return None
 
     def to_graphviz(self, filename) -> None:
         with open(f"{filename}.gv", "w") as file:
@@ -125,18 +244,23 @@ class DirectedGraph(Graph):
                 attrs = ""
                 for key, val in node.attr.items():
                     attrs += f"{key}={val},"
-                file.write(f"    {node.id} [{attrs}]\n")
+                if self.show_weights:
+                    file.write(f"    \"{node.id}_({node.attr['weight']})\" [{attrs}]\n")
+                else:
+                    file.write(f"    {node.id} [{attrs}]\n")
 
             for edge in self.edges.values():
-                file.write(f"    {edge.source.id} -> {edge.target.id}\n")
-            file.write("}\n")
+                if self.show_weights:
+                    file.write(f"    \"{edge.source.id}_({edge.source.attr['weight']})\" -> \"{edge.target.id}_({edge.target.attr['weight']})\" [label={edge.weight}, weight={edge.weight}]\n")
+                else:
+                    file.write(f"    {edge.source.id} -> {edge.target.id}\n")
 
     def __str__(self) -> str:
         return f"DirectedGraph(nodes={self.nodes}, edges={self.edges})"
 
 class UndirectedGraph(Graph):
-    def __init__(self) -> None:
-        super().__init__()
+    def __init__(self, show_weights= False) -> None:
+        super().__init__(show_weights)
         self.directed = False
 
     def get_neighbors_for_node(self, node: Node) -> List[Node]:
@@ -151,6 +275,16 @@ class UndirectedGraph(Graph):
                 neighbors.append(edge.source)
         
         return neighbors
+    
+    def get_edge_for_nodes(self, node1: Node, node2: Node) -> Edge:
+        if not node1.id in self.nodes.keys() or not node2.id in self.nodes.keys():
+            raise Exception("Nodo no exisatente")
+        
+        for edge in self.edges.values():
+            if edge.source.id == node1.id and edge.target.id == node2.id or edge.source.id == node2.id and edge.target.id == node1.id:
+                return edge
+        
+        return None
 
     def to_graphviz(self, filename) -> None:
         with open(f"{filename}.gv", "w") as file:
@@ -159,10 +293,17 @@ class UndirectedGraph(Graph):
                 attrs = ""
                 for key, val in node.attr.items():
                     attrs += f"{key}={val},"
-                file.write(f"    {node.id} [{attrs}]\n")
+                if self.show_weights:
+                    file.write(f"    \"{node.id}_({node.attr['weight']})\" [{attrs}]\n")
+                else:
+                    file.write(f"    {node.id} [{attrs}]\n")
 
             for edge in self.edges.values():
-                file.write(f"    {edge.source.id} -- {edge.target.id}\n")
+                if self.show_weights:
+                    file.write(f"    \"{edge.source.id}_({edge.source.attr['weight']})\" -- \"{edge.target.id}_({edge.target.attr['weight']})\" [label={edge.weight}, weight={edge.weight}]\n")
+                else:
+                    file.write(f"    {edge.source.id} -- {edge.target.id}\n")
+                
             file.write("}\n")
 
     def __str__(self) -> str:

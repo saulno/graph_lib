@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg contentScriptType="text/ecmascript" width="156.0"
+     xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+     contentStyleType="text/css"
+     viewBox="0.000000 0.000000 156.000000 40.196041" height="40.19604"
+     preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+     version="1.1">
+    <g id="edges">
+        <path fill="none" stroke-width="0.03"
+              d="M 80.779297,25.652845 C 67.432518,38.221443 28.559454,37.054161 15.990858,23.707384"
+              class="id_1306_(0) id_1322_(0)" stroke-opacity="1.0"
+              stroke="#000000"/>
+        <path fill="none" stroke-width="0.13"
+              d="M 145.705338,27.600330 C 132.330627,40.196041 93.375008,39.027550 80.779297,25.652845"
+              class="id_1326_(0) id_1306_(0)" stroke-opacity="1.0"
+              stroke="#000000"/>
+    </g>
+    <g id="nodes">
+        <circle fill-opacity="1.0" fill="#000000" r="10.0" cx="80.7793"
+                class="id_1306_(0)" cy="25.652845" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#000000" r="10.0" cx="15.990858"
+                class="id_1322_(0)" cy="23.707384" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#000000" r="10.0" cx="145.70534"
+                class="id_1326_(0)" cy="27.60033" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+    </g>
+    <g id="node-labels-outline">
+        <text stroke-linecap="round" font-size="24" x="80.7793" y="31.283705"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1306_(0)" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
+            1306_(0)
+        </text>
+        <text stroke-linecap="round" font-size="24" x="15.990858" y="29.338243"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1322_(0)" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
+            1322_(0)
+        </text>
+        <text stroke-linecap="round" font-size="24" x="145.70534" y="33.23119"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1326_(0)" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="3.0px">
+            1326_(0)
+        </text>
+        <text stroke-linecap="round" font-size="10" x="48.09326" y="34.39838"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_2381" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="0.625px">
+            3
+        </text>
+        <text stroke-linecap="round" font-size="10" x="112.95019" y="36.365494"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_2382" stroke="#ffffff"
+              stroke-opacity="0.8" stroke-width="0.625px">
+            13
+        </text>
+    </g>
+    <g id="node-labels">
+        <text font-size="24" x="80.7793" y="31.283705" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1306_(0)">
+            1306_(0)
+        </text>
+        <text font-size="24" x="15.990858" y="29.338243" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1322_(0)">
+            1322_(0)
+        </text>
+        <text font-size="24" x="145.70534" y="33.23119" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1326_(0)">
+            1326_(0)
+        </text>
+    </g>
+    <g id="edge-labels">
+        <text font-size="10" x="48.09326" y="34.39838" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_2381">
+            3
+        </text>
+        <text font-size="10" x="112.95019" y="36.365494" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_2382">
+            13
+        </text>
+    </g>
+</svg>
